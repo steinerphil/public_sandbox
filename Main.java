@@ -2,7 +2,7 @@ class Main {
   public static void main(String[] args) {
     System.out.println("");
 
-    Hamburger bigmac = new Hamburger("white", true);
+   Hamburger bigmac = new Hamburger("white", true);
 
 
     bigmac.addSalat(3);
