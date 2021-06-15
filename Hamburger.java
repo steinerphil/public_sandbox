@@ -2,9 +2,9 @@ public class Hamburger{
 
 private String breadType;
 private boolean meat;
-private double salat;
-private double tomato;
-private double price;
+private int salat;
+private int tomato;
+protected double price;
 
 public Hamburger(String breadType, boolean meat){
   this.breadType = breadType;
@@ -30,8 +30,14 @@ this.price += cost;
   return tomato + " tomato added, costs $" + cost;
 }
 
+
+
 public double getPrice(){
- return this.price;
+ return price;
+}
+
+public String getBreadType(){
+ return breadType;
 }
 
 }
