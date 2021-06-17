@@ -17,7 +17,7 @@ System.out.println("deluxe: " + deluxe.getPrice());
 
 
 
-   /* bigmac.addSalat(3);
+  bigmac.addSalat(3);
     bigmac.addTomato(5);
     System.out.println(bigmac.getBreadType() + " and " + bigmac.getPrice());
 
