@@ -9,7 +9,12 @@ protected double price;
 public Hamburger(String breadType, boolean meat){
   this.breadType = breadType;
   this.meat = meat;
+  if (meat){
   this.price = 1.99;
+  }
+  else {
+    this.price = 1.00;
+  }
 }
 
 public String addSalat(int amount){
